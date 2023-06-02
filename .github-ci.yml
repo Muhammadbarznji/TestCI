@@ -24,4 +24,4 @@ archive_build:
   only:
     - master
     - main
-    - Dev
+    - dev
