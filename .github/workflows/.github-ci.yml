@@ -1,8 +1,5 @@
 name: CICD Demo
-on:
- push:
-  branches:
-   - [branchName]
+on: push:
  pull_request:
   branches:
    - [branchName]
