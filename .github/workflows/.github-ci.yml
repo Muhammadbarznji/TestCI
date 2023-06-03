@@ -4,7 +4,8 @@ jobs:
   build-and-test:
     runs-on: macos-latest
   steps:
-    - uses: actions/checkout@v2
+    # - name: Check out repository
+    # - uses: actions/checkout@Dev
     - name: Select Xcode
       run: sudo Xcode-select -switch /Applications/Xcode_14.2.app
     - name: Build & Test
